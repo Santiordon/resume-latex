@@ -53,6 +53,15 @@ brew install --cask basictex
 tlmgr install latexmk enumitem titlesec fancyhdr babel preprint collection-fontsrecommended marvosym
 ```
 
+Install on Windows:
+1. Download and install [MiKTeX](https://miktex.org/download)
+2. During installation, set "Install missing packages on-the-fly" to **Yes**
+3. Install `make` via [Chocolatey](https://chocolatey.org/):
+```powershell
+choco install make
+```
+4. MiKTeX will automatically download any missing LaTeX packages on first compile, so no manual `tlmgr` installs are needed.
+
 ### Commands
 
 ```bash
