@@ -93,4 +93,4 @@ All output PDFs are placed in the `output/` directory.
 
 ## Based On
 
-[Jake's Resume Template]([https://github.com/sb2nov/resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs)) by Jake Gutierrez, licensed under MIT.
+[Jake's Resume Template](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) by Jake Gutierrez, licensed under MIT.
