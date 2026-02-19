@@ -4,6 +4,9 @@ OUTDIR = output
 save:
 	@bash save.sh
 
+pull:
+	@bash pull.sh
+
 both: all fullurl
 
 all: $(OUTDIR)
