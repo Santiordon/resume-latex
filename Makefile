@@ -1,6 +1,9 @@
 DIRS = resume-games resume-games-ai resume-web-ai
 OUTDIR = output
 
+save:
+	@bash save.sh
+
 both: all fullurl
 
 all: $(OUTDIR)
