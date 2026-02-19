@@ -1,10 +1,10 @@
 DIRS = resume-games resume-games-ai resume-web-ai
 OUTDIR = output
 
-save:
+save: clean
 	@bash save.sh
 
-pull:
+pull: clean
 	@bash pull.sh
 
 both: all fullurl
